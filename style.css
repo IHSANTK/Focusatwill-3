@@ -7,7 +7,7 @@ header{
     top: 0;
     position: sticky;
     box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
-    background-color: rgb(255,255,255,0.5);
+    background-color: rgb(255,255,255,0.9);
 }
 header h1{
     margin-top: 35px;
@@ -15,34 +15,26 @@ header h1{
     font-size: 40px;
     color: orangered;
 }
-header nav{
-    margin-left: 300px;
-    width: 750px;
-    height: 100%;
-    margin-left: 170px;
-}
-header span{
- 
-    width: 100px;
-    height: 100%;
-    float: left;
-    text-align: center;
-    align-items: center;
-}
-header span h5{
-    margin-top: 50px;
-    color: gray;
+header li{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: medium;
+    display: inline-block;
+    color: rgb(71, 75, 74);
+    cursor: pointer;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 header button{
-width: 160px;
-height: 40px;
-margin-right: 70px;
-margin-top: 50px;
-border: 0;
-border-radius: 25px;
-background-color: rgb(95, 179, 137);
-color: white;
+  width: 160px;
+  height: 40px;
+  margin-right: 70px;
+  margin-left: 200px;
+  margin-top: 30px;
+  border: 0;
+  border-radius: 25px;
+  background-color: rgb(95, 179, 137);
+  color: white;
 }
 #section-1{
     margin-top:  0;
@@ -65,14 +57,19 @@ color: white;
   color: white;
 }
 #section-2{
-height: 470px;
+    height: 500px;
+    width: 75%;
+    margin-left: 180px;
+    cursor: default;
 }
-.section-2-indiv{
-  height: 400px;
-  width: 75%;
-  margin-left: 180px;
+#section-2 h2{
+    color: rgb(61, 58, 58);
+    margin-left: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
-.grid-div{
+
+
+.image-div{
   margin-left: 15px;
   margin-top: 15px;
   width: 140px;
@@ -81,7 +78,6 @@ height: 470px;
   border: 0.5px solid;
   border-radius: 5px;
   border-color: rgb(222, 228, 230);
- 
 }
 #section-2 img{
     margin-top: 10px;
@@ -89,11 +85,10 @@ height: 470px;
 #section-3{
     padding-top: 10px;
     height: 150px;
-  
     padding-left: 450px;
 }
-li{
-    color: rgb(78, 76, 76);
+#section-3 li{
+    color: rgb(59, 59, 59);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
    list-style-type: circle ;
@@ -109,6 +104,7 @@ b{
     height: 500px;
     background-color: blue;
     display: flex;
+    cursor: default;
 }
 #section-4 div{
     width: 50%;
@@ -153,27 +149,27 @@ b{
     height: 500px;
     background-color: #3379a2;
     display: flex;
+    cursor: default;
 }
 #section-6 #div-1{
     width: 50%;
     padding-top: 100px;
-
  }
 #section-6 #div-1 h1,h2,h3,p{
-          margin-left: 50px;
-          color: white;
+    margin-left: 50px;
+    color: white;
  }
  #section-6 #div-1 p,h3{
-          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
  #section-6 button{
-          margin-left: 250px;
-          width: 170px;
-          height: 40px;
-          border: 0;
-          border-radius: 25px;
-          background-color: rgb(95, 179, 137);
-          color: white;
+    margin-left: 250px;
+    width: 170px;
+    height: 40px;
+    border: 0;
+    border-radius: 25px;
+    background-color: rgb(95, 179, 137);
+    color: white;
 }
 #section-6 #div-2 img{
     width: 100%;
@@ -183,6 +179,7 @@ b{
     margin-left: 30px;
     color: white;
     font-size: 17px;
+    list-style-type: circle;
 }
 #section-7{
     margin-top: 20px;
@@ -195,8 +192,8 @@ b{
     align-items: center;
 }
 #section-7 h4{
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- color: rgb(48, 46, 46);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(48, 46, 46);
 }
 #section-7 button{
     width: 170px;
@@ -211,7 +208,7 @@ a{
     color: white;
 }
 #common-h2{
- margin-left: 500px;
+    margin-left: 500px;
 }
 #section-8{
     height: 650px;
@@ -230,9 +227,10 @@ a{
     border-radius: 5px;
 }
 #section-8 div h2{
- float: left;
- color: rgb(80, 77, 77);
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    color: rgb(80, 77, 77);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
 }
 #section-8 div h1{
    height: 40px;
@@ -244,21 +242,18 @@ a{
    text-align: center;
    background-color:white;
    border-radius: 40px;
+   cursor: pointer;
 }
 #section-9{
    height: 200px;
-   
-  border-top: 10px solid;
-  border-color: lightgrey;
+   border-top: 10px solid;
+   border-color: lightgrey;
   display: flex;
 }
 #section-9 div{
     width: 110px;
     height: 80%;
     margin-left: 50px;
-  
-   
-
 }
 #section-9 div h5:hover{
     text-decoration: underline;
@@ -266,9 +261,9 @@ a{
 #section-9 div h5{
     margin-left:25px ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
 }
 #section-9 div ul{
-
     margin-left: -15px;
 }
 #section-9 div li:hover{
@@ -278,6 +273,7 @@ a{
  list-style-type: none;
  font-size: 13px;
  margin-top: 5px;
+ cursor: pointer;
  
 }
 #section-9 img{
